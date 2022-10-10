@@ -15,25 +15,25 @@ body{
     width: 90vw;
 }
 #pannel-1{
-    background-image: url(/pics/Explore\ world.jpg);
+    background-image: url(https://images.unsplash.com/photo-1518138945951-647273bf05aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 #pannel-2{
-    background-image: url(/pics/Ocean.jpg);
+    background-image: url(https://images.unsplash.com/photo-1603704984992-b3ac6f6c573c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80);
 }
 #pannel-3{
-    background-image: url(/pics/mountains.jpg);
+    background-image: url(https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 #pannel-4{
-    background-image: url(/pics/Waterfall.jpg);
+    background-image: url(https://images.unsplash.com/photo-1534396579421-7c278108bf83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1933&q=80);
 }
 #pannel-5{
-    background-image: url(/pics/Forest.jpg);
+    background-image: url(https://images.unsplash.com/photo-1511884642898-4c92249e20b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
 #pannel-6{
-    background-image: url(/pics/Enjoyment.jpg);
+    background-image: url(https://images.unsplash.com/photo-1502137914655-3ab2fb4dc4cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
 }
 #pannel-7{
-    background-image: url(/pics/Disney.jpg);
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.trip.com%2Fblog%2Fthe-best-things-you-shouldnt-miss-at-disneyland%2F&psig=AOvVaw3RzmGklG4N7LDyq8jQ7_gj&ust=1665498225759000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCOiNlsLu1foCFQAAAAAdAAAAABAK);
 }
 .box{
     background-size: cover;
