@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.container{
+    display: flex;
+    width: 90vw;
+}
+#pannel-1{
+    background-image: url(/pics/Explore\ world.jpg);
+}
+#pannel-2{
+    background-image: url(/pics/Ocean.jpg);
+}
+#pannel-3{
+    background-image: url(/pics/mountains.jpg);
+}
+#pannel-4{
+    background-image: url(/pics/Waterfall.jpg);
+}
+#pannel-5{
+    background-image: url(/pics/Forest.jpg);
+}
+#pannel-6{
+    background-image: url(/pics/Enjoyment.jpg);
+}
+#pannel-7{
+    background-image: url(/pics/Disney.jpg);
+}
+.box{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    border-radius: 50px;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 12px;
+    position: relative;
+    border: 2px solid gray;
+}
+.box h3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.box.active{
+    flex: 5;
+}
+.box.active h3{
+    opacity: .8;
+    color: rgb(206, 206, 194);
+    font-size: 21px;
+    margin-left: 12px;
+    font-style: italic;
+    transition: opacity 0.5s ease-in-out;
+}
